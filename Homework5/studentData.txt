@@ -1,0 +1,1 @@
+Name: A, Address: 123 ABC, Age: 30, ID: 123456, PhoneNumber: 1234567890, SchoolName: Solvd, SchoolAddress: Remote, Standing: Good, Major: Test Aut
