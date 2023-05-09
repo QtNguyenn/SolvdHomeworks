@@ -1,0 +1,91 @@
+2023-05-08 23:11:33.759 [main] Testing Student Class.
+2023-05-08 23:11:33.764 [main] Managing Student's Info.
+2023-05-08 23:11:33.764 [main] Saving student data to file Homework6/studentData.csv
+2023-05-08 23:11:33.765 [main] Successfully added student Name: Alice
+Address: 123 ABC Avenue
+Age: 25
+ID: 1234
+Phone: 1234567890
+School Name: Solvd
+SchoolAddress: Remote
+Standing: Good
+Major: Computer Science
+2023-05-08 23:11:33.765 [main] Managing Student's Info.
+2023-05-08 23:11:33.765 [main] Saving student data to file Homework6/studentData.csv
+2023-05-08 23:11:33.766 [main] Successfully added student Name: James
+Address: 123 ABC Avenue
+Age: 25
+ID: 5555
+Phone: 1234567890
+School Name: Solvd
+SchoolAddress: Remote
+Standing: Good
+Major: Computer Science
+2023-05-08 23:11:33.766 [main] Managing Student's Info.
+2023-05-08 23:11:33.766 [main] Saving student data to file Homework6/studentData.csv
+2023-05-08 23:11:33.767 [main] Successfully added student Name: John
+Address: 123 ABC Avenue
+Age: 25
+ID: 9876
+Phone: 1234567890
+School Name: Solvd
+SchoolAddress: Remote
+Standing: Good
+Major: Computer Science
+2023-05-08 23:11:33.767 [main] Testing Professor Class.
+2023-05-08 23:11:33.767 [main] Managing Professor's Info.
+2023-05-08 23:11:33.768 [main] Sucessfully added professor.
+2023-05-08 23:11:33.768 [main] Adding Professor's Info to Database
+2023-05-08 23:11:33.769 [main] Professor Successfully added.
+2023-05-08 23:11:33.769 [main] Managing Professor's Info.
+2023-05-08 23:11:33.769 [main] Sucessfully added professor.
+2023-05-08 23:11:33.769 [main] Adding Professor's Info to Database
+2023-05-08 23:11:33.770 [main] Professor Successfully added.
+2023-05-08 23:11:33.770 [main] Managing Professor's Info.
+2023-05-08 23:11:33.770 [main] Sucessfully added professor.
+2023-05-08 23:11:33.770 [main] Adding Professor's Info to Database
+2023-05-08 23:11:33.770 [main] Professor Successfully added.
+2023-05-08 23:11:33.770 [main] Testing HashMap.
+2023-05-08 23:11:33.771 [main] Professor with ID 12345: Tim
+2023-05-08 23:11:33.771 [main] Testing Queue
+2023-05-08 23:11:33.771 [main] Students in the queue:
+2023-05-08 23:11:33.772 [main] Tim
+2023-05-08 23:11:33.772 [main] Brook
+2023-05-08 23:11:33.772 [main] Jess
+2023-05-08 23:11:33.772 [main] Tim
+2023-05-08 23:11:33.772 [main] Brook
+2023-05-08 23:11:33.772 [main] Jess
+2023-05-08 23:11:33.772 [main] Testing Generic Custom LinkedList
+2023-05-08 23:11:33.772 [main] Managing Student's Info.
+2023-05-08 23:11:33.772 [main] Saving student data to file Homework6/studentData.csv
+2023-05-08 23:11:33.773 [main] Successfully added student Name: James
+Address: 123 ABC Avenue
+Age: 25
+ID: 122334
+Phone: 1234567890
+School Name: Solvd
+SchoolAddress: Remote
+Standing: Good
+Major: Computer Science
+2023-05-08 23:11:33.773 [main] Managing Student's Info.
+2023-05-08 23:11:33.773 [main] Saving student data to file Homework6/studentData.csv
+2023-05-08 23:11:33.774 [main] Successfully added student Name: Timmys
+Address: 123 ABC Avenue
+Age: 25
+ID: 552355
+Phone: 1234567890
+School Name: Solvd
+SchoolAddress: Remote
+Standing: Good
+Major: Computer Science
+2023-05-08 23:11:33.774 [main] Managing Student's Info.
+2023-05-08 23:11:33.774 [main] Saving student data to file Homework6/studentData.csv
+2023-05-08 23:11:33.775 [main] Successfully added student Name: Pete
+Address: 123 ABC Avenue
+Age: 25
+ID: 932876
+Phone: 1234567890
+School Name: Solvd
+SchoolAddress: Remote
+Standing: Good
+Major: Computer Science
