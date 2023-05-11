@@ -1,0 +1,22 @@
+2023-05-10 20:20:56.205 [main] Reading input file.
+2023-05-10 20:20:56.207 [main] Input file:
+2023-05-10 20:20:56.207 [main] Testing input ABC
+Testing output DEF
+Testing write to file and read from file
+Testing using fileultils and stringutils
+2023-05-10 20:20:56.214 [main] Writting output file:
+2023-05-10 20:20:56.214 [main] Number of unique words: 14
+testing
+input
+abc
+output
+def
+write
+to
+file
+and
+read
+from
+using
+fileultils
+stringutils
