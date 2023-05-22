@@ -3,6 +3,7 @@ package com.solvd.project;
 import com.solvd.project.People.*;
 import com.solvd.project.System.*;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Queue;
 
 import org.apache.logging.log4j.LogManager;
@@ -13,9 +14,9 @@ public class Main {
     //Define a logger instance
     private static final Logger logger = LogManager.getLogger(Main.class);    
     public static void main(String[] args)
-    {
+    {   
         //Testing Student class
-        logger.info("Testing Student Class.");
+        /*logger.info("Testing Student Class.");
         Schedule s1 = new Schedule("Cs101","Intro to CS","4/10/2023","9/10/2023");
         Student student1 = new Student("Alice","123 ABC Avenue",
         25,1234,1234567890,"Solvd","Remote","Good","Computer Science",s1);
@@ -86,6 +87,70 @@ public class Main {
         Student sstudent3 = new Student("Pete","123 ABC Avenue",
         25,932876,1234567890,"Solvd","Remote","Good","Computer Science",ss3);
         CollegeManagement.manageStudent(sstudent3);
+*/
 
+        //Testing lambda homwork
+        logger.info("Lambda homework begin.");
+
+        Student lambdaStudent1 = new Student("Asheley", 35, "CS");
+        Student lambdaStudent2 = new Student("Bobby", 25, "MATH");
+        Student lambdaStudent3 = new Student("Johnathan", 15, "CS");
+        
+        //Using Predicate function from util function package to filter student
+        // To filter student 18 or older
+        logger.info("Using predicate function to filter student greater or equal 18");
+        CollegeManagement.utilFilterStudents(lambdaStudent1);
+        CollegeManagement.utilFilterStudents(lambdaStudent2);
+        List<Student> filteredStudents = CollegeManagement.utilFilterStudents(lambdaStudent3);
+        for (Student student : filteredStudents) 
+        {
+            logger.info(student.customToString());
+        }
+        logger.info("===========================");
+
+        //Using lambda function consumer and BiFunction to retrieve student names and age + name
+        logger.info("Using function consumer and BiFunction to filter students' name and name+age");
+
+        CollegeManagement.utilProcessStudents();
+        logger.info("===========================");
+
+        //Custom lambda
+        //filter with Letter
+        logger.info("Uses of 3 custom lambda function with generic.");
+        List<Student> filteredStudentsWithLetter = CollegeManagement.filterName("A");
+        logger.info("Filter student's name start with A");
+        for (Student student : filteredStudentsWithLetter) 
+        {
+            logger.info(student.customToString());
+        }
+        logger.info("===========================");
+
+        //Filter with age
+        List<Student> filteredStudentsWithAge = CollegeManagement.filterAge(20,30);
+        logger.info("Filter student with age between 20 and 30");
+        for (Student student : filteredStudentsWithAge) 
+        {
+            logger.info(student.customToString());
+        }
+        logger.info("===========================");
+
+        //Filter with major
+        List<Student> filteredStudentsWithMajor = CollegeManagement.filterMajor("CS");
+        logger.info("Filter student with CS major");
+        for (Student student : filteredStudentsWithMajor) 
+        {
+            logger.info(student.customToString());
+        }
+    
+        logger.info("===========================");
+        //Uses of enums
+        logger.info("Uses of enums");
+        Student lambdaStudent4 = new Student("Ash", 45, Subject.COMPUTER_SCIENCE);
+        Student lambdaStudent5 = new Student("Bob", 25,Subject.MATH);
+        Student lambdaStudent6 = new Student("John", 15,Subject.BUSINESS);
+
+        logger.info(lambdaStudent4.getName() +"\n" + lambdaStudent4.getSubject().printDetail());
+        logger.info(lambdaStudent5.getName()  +"\n"+ lambdaStudent4.getSubject().printDetail());
+        logger.info(lambdaStudent6.getName()  + "\n" +lambdaStudent4.getSubject().printDetail());
     }
 }

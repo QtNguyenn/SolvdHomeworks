@@ -183,3 +183,77 @@ School Name: Solvd
 SchoolAddress: Remote
 Standing: Good
 Major: Computer Science
+2023-05-22 00:00:02.386 [main] Lambda homework begin.
+2023-05-22 00:00:02.391 [main] Using predicate function to filter student greater or equal 18
+2023-05-22 00:00:02.397 [main] Successfully added student Name: Asheley
+Address: null
+Age: 35
+ID: 0
+Phone: 0
+School Name: null
+SchoolAddress: null
+Standing: null
+Major: CS
+2023-05-22 00:00:02.397 [main] Successfully added student Name: Bobby
+Address: null
+Age: 25
+ID: 0
+Phone: 0
+School Name: null
+SchoolAddress: null
+Standing: null
+Major: MATH
+2023-05-22 00:00:02.397 [main] Successfully added student Name: Johnathan
+Address: null
+Age: 15
+ID: 0
+Phone: 0
+School Name: null
+SchoolAddress: null
+Standing: null
+Major: CS
+2023-05-22 00:00:02.398 [main] Name: Asheley
+Age: 35
+Major: CS
+2023-05-22 00:00:02.398 [main] Name: Bobby
+Age: 25
+Major: MATH
+2023-05-22 00:00:02.398 [main] ===========================
+2023-05-22 00:00:02.398 [main] Using function consumer and BiFunction to filter students' name and name+age
+2023-05-22 00:00:02.398 [main] Student Name: Asheley
+2023-05-22 00:00:02.398 [main] Student Name: Bobby
+2023-05-22 00:00:02.398 [main] Student Name: Johnathan
+2023-05-22 00:00:02.399 [main] Student Age: 35, Name: Asheley
+2023-05-22 00:00:02.399 [main] Student Age: 25, Name: Bobby
+2023-05-22 00:00:02.399 [main] Student Age: 15, Name: Johnathan
+2023-05-22 00:00:02.399 [main] ===========================
+2023-05-22 00:00:02.399 [main] Uses of 3 custom lambda function with generic.
+2023-05-22 00:00:02.400 [main] Filter student's name start with A
+2023-05-22 00:00:02.400 [main] Name: Asheley
+Age: 35
+Major: CS
+2023-05-22 00:00:02.400 [main] ===========================
+2023-05-22 00:00:02.400 [main] Filter student with age between 20 and 30
+2023-05-22 00:00:02.400 [main] Name: Bobby
+Age: 25
+Major: MATH
+2023-05-22 00:00:02.400 [main] ===========================
+2023-05-22 00:00:02.401 [main] Filter student with CS major
+2023-05-22 00:00:02.401 [main] Name: Asheley
+Age: 35
+Major: CS
+2023-05-22 00:00:02.401 [main] Name: Johnathan
+Age: 15
+Major: CS
+2023-05-22 00:00:02.401 [main] ===========================
+2023-05-22 00:00:02.401 [main] Uses of enums
+2023-05-22 00:00:02.401 [main] Major's details ...
+2023-05-22 00:00:02.402 [main] Ash
+Major: Computer Science
+Id: 150
+2023-05-22 00:00:02.402 [main] Bob
+Major: Computer Science
+Id: 150
+2023-05-22 00:00:02.402 [main] John
+Major: Computer Science
+Id: 150

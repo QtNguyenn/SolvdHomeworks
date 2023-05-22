@@ -31,6 +31,14 @@ public abstract class Person {
         this.schoolName = schoolName;
         this.schoolAddress = schoolAddress;
     }
+
+    //constructor for lamda homework uses
+    public Person(String name, int age)
+    {
+        this.name = name;
+        this.age = age;
+    }
+    
     public String getName()
     {
         return name;

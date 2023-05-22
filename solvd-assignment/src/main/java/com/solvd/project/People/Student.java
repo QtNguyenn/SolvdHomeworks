@@ -1,17 +1,23 @@
 package com.solvd.project.People;
+
 import com.solvd.project.Exceptions.InvalidInputException;
 import com.solvd.project.System.Schedule;
+import com.solvd.project.System.Subject;
 
 public class Student extends Person{
    
     private String academicStanding;
     private String major;
     private Schedule schedule;
+    private Subject subject;
     private final String role = "Student";
+
     public Student(Schedule schedule)
     {
         this.schedule = schedule;
     }
+
+    //constructor without schedule
     public Student(String name, String streetAddress,int age, int id,int phoneNumber,String schoolName,String schoolAddress, 
                     String academicStanding, String major) throws InvalidInputException
     {
@@ -24,6 +30,8 @@ public class Student extends Person{
         this.academicStanding = academicStanding;
         this.major = major;
     }
+
+    //constructor with schedule
     public Student(String name, String streetAddress,int age, int id,int phoneNumber,String schoolName,String schoolAddress, 
                     String academicStanding, String major, Schedule schedule)
     {
@@ -33,14 +41,29 @@ public class Student extends Person{
         this.schedule = schedule;
     }
     
+    //constructor for lambda homework uses
+    public Student(String name, int age, String major)
+    {
+        super(name,age);
+        this.major = major;
+    }
+    public Student(String name, int age, Subject subject)
+    {
+        super(name,age);
+        this.subject = subject;
+    }
+
     public String getAcademicStanding()
     {
         return academicStanding;
     }
-    
     public String getMajor()
     {
         return major;
+    }
+    public Subject getSubject()
+    {
+        return subject;
     }
     public void setMajor (String major)
     {
@@ -79,6 +102,12 @@ public class Student extends Person{
     {
         return String.format("Name: %s%nAddress: %s%nAge: %d%nID: %d%nPhone: %d%nSchool Name: %s%nSchoolAddress: %s%nStanding: %s%nMajor: %s",
         name,streetAddress,age,id,phoneNumber,schoolName,schoolAddress,academicStanding,major);
+    }
+
+    // a custome toString for lambda homework uses
+    public String customToString()
+    {
+        return String.format("Name: %s%nAge: %d%nMajor: %s", name, age,major);
     }
 }
 
