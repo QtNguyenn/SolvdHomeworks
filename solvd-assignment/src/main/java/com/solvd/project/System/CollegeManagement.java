@@ -84,4 +84,9 @@ public class CollegeManagement
 
         return filteredStudents;
     }
+
+    public static List<Student> getManageStudentsList()
+    {
+        return manageStudentList.getStudents();
+    }
 }

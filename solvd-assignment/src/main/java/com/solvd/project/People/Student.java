@@ -107,6 +107,10 @@ public class Student extends Person{
     // a custome toString for lambda homework uses
     public String customToString()
     {
+        if(major == null)
+        {
+            return String.format("Name: %s%nAge: %d%nMajor: %s", name, age,subject);
+        }
         return String.format("Name: %s%nAge: %d%nMajor: %s", name, age,major);
     }
 }

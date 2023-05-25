@@ -1,24 +1,20 @@
 package com.solvd.project.System;
 
 public class CustomLinkedList<T> {
-    private Node head;
+    private Node<T> head;
     private int size;
 
-    public CustomLinkedList() 
-    {
+    public CustomLinkedList() {
         head = null;
         size = 0;
     }
 
-    public void add(T element) 
-    {
-        Node newNode = new Node(element);
-        if (head == null) 
-        {
+    public void add(T element) {
+        Node<T> newNode = new Node<>(element);
+        if (head == null) {
             head = newNode;
-        } else 
-        {
-            Node current = head;
+        } else {
+            Node<T> current = head;
             while (current.next != null) {
                 current = current.next;
             }
@@ -28,32 +24,43 @@ public class CustomLinkedList<T> {
     }
 
     public T get(int index) {
-        if (index < 0 || index >= size) 
-        {
+        if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException("Invalid index: " + index);
         }
-        Node current = head;
-        for (int i = 0; i < index; i++) 
-        {
+        Node<T> current = head;
+        for (int i = 0; i < index; i++) {
             current = current.next;
         }
         return current.data;
     }
 
-    public int size() 
-    {
+    public int size() {
         return size;
     }
-
-    private class Node 
-    {
+    public Node<T> getHead() {
+        return head;
+    }
+    
+    public static class Node<T> {
         private T data;
-        private Node next;
+        private Node<T> next;
 
         public Node(T data) 
         {
             this.data = data;
             next = null;
         }
+
+        public T getData() 
+        {
+            return data;
+        }
+
+        public Node<T> getNext() 
+        {
+            return next;
+        }
+
     }
+
 }

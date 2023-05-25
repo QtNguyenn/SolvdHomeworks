@@ -11,6 +11,7 @@ import java.util.function.Predicate;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import com.solvd.project.Exceptions.InvalidInputException;
 import com.solvd.project.People.Person;
 import com.solvd.project.People.Student;
@@ -123,5 +124,17 @@ public class ManageStudent<T extends Person> extends CollegeManagement {
         }
         return studentsFiltered;
     }
- 
+
+    public List<T> getStudents()
+    {
+        List<T> studentList = new ArrayList<>();
+        CustomLinkedList.Node<T> currentNode = students.getHead();
+
+        while (currentNode != null) {
+            studentList.add(currentNode.getData());
+            currentNode = currentNode.getNext();
+        }
+
+        return studentList;
+    }
 }

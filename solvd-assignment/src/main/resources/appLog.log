@@ -257,3 +257,159 @@ Id: 150
 2023-05-22 00:00:02.402 [main] John
 Major: Computer Science
 Id: 150
+2023-05-24 18:22:18.533 [main] ////////////////////////////////////////////
+2023-05-24 18:22:18.533 [main] Start of stream collection and Reflection Homework
+2023-05-24 18:22:18.533 [main] Filter Students who are 18 or older using stream
+2023-05-24 18:22:18.533 [main] Name: Asheley
+Age: 35
+Major: CS
+2023-05-24 18:22:18.533 [main] Name: Bobby
+Age: 25
+Major: MATH
+2023-05-24 18:22:18.533 [main] Name: Ash
+Age: 45
+Major: COMPUTER_SCIENCE
+2023-05-24 18:22:18.533 [main] Name: Bob
+Age: 25
+Major: MATH
+2023-05-24 18:22:18.533 [main] +++++++++++++++++++++++
+2023-05-24 18:22:18.533 [main] Sort by ascending order of age using stream
+2023-05-24 18:22:18.535 [main] Name: Bobby
+Age: 25
+Major: MATH
+2023-05-24 18:22:18.535 [main] Name: Bob
+Age: 25
+Major: MATH
+2023-05-24 18:22:18.535 [main] Name: Asheley
+Age: 35
+Major: CS
+2023-05-24 18:22:18.535 [main] Name: Ash
+Age: 45
+Major: COMPUTER_SCIENCE
+2023-05-24 18:22:18.536 [main] +++++++++++++++++++++++
+2023-05-24 18:22:18.536 [main] List of sorted students' name
+2023-05-24 18:22:18.536 [main] Names of Sorted Students:
+2023-05-24 18:22:18.537 [main] Bobby
+2023-05-24 18:22:18.537 [main] Bob
+2023-05-24 18:22:18.537 [main] Asheley
+2023-05-24 18:22:18.537 [main] Ash
+2023-05-24 18:22:18.537 [main] +++++++++++++++++++++++
+2023-05-24 18:22:18.537 [main] Average student age of the sorted list.
+2023-05-24 18:22:18.539 [main] Average age of filtered Students: 32.5
+2023-05-24 18:22:18.539 [main] ///////////////////////////////////////////
+2023-05-24 18:22:18.539 [main] Using reflection to extract information(modifiers,return types,parameter,etc) about field, constructors,method.
+2023-05-24 18:22:18.539 [main] create object and call method using only reflection
+2023-05-24 18:22:18.539 [main] ///////////////////////////////////////////
+2023-05-24 18:22:18.539 [main] Printing names of all declared method.
+2023-05-24 18:22:18.540 [main] [toString, customToString, getSubject, getSchedule, setStanding, getMajor, setMajor, printInfo, setSchedule, getAcademicStanding, getName, equals, hashCode, setName, getId, getAge, setAge, setId, setPhoneNumber, getPhoneNumber, setStreetAddress, getSchoolAddress, getStreetAddress, getSchoolName, getClass, notify, notifyAll, wait, wait, wait]
+2023-05-24 18:22:18.540 [main] +++++++++++++++++++++++++++++++++
+2023-05-24 18:22:18.540 [main] Create object and call method set using reflection.
+2023-05-24 18:22:18.540 [main] Before
+Name: Ash
+Age: 45
+Major: COMPUTER_SCIENCE
+2023-05-24 18:22:18.543 [main] After
+Name: Ash
+Age: 33
+Major: COMPUTER_SCIENCE
+2023-05-24 18:22:18.543 [main] +++++++++++++++++++++++++++++++++
+2023-05-24 18:22:18.543 [main] Extracting information about fields
+2023-05-24 18:22:18.543 [main] Field: academicStanding
+2023-05-24 18:22:18.543 [main] Type: String
+2023-05-24 18:22:18.544 [main] Modifiers: private
+2023-05-24 18:22:18.544 [main] 
+
+2023-05-24 18:22:18.544 [main] Field: major
+2023-05-24 18:22:18.544 [main] Type: String
+2023-05-24 18:22:18.544 [main] Modifiers: private
+2023-05-24 18:22:18.544 [main] 
+
+2023-05-24 18:22:18.544 [main] Field: schedule
+2023-05-24 18:22:18.544 [main] Type: Schedule
+2023-05-24 18:22:18.544 [main] Modifiers: private
+2023-05-24 18:22:18.544 [main] 
+
+2023-05-24 18:22:18.544 [main] Field: subject
+2023-05-24 18:22:18.544 [main] Type: Subject
+2023-05-24 18:22:18.544 [main] Modifiers: private
+2023-05-24 18:22:18.544 [main] 
+
+2023-05-24 18:22:18.544 [main] Field: role
+2023-05-24 18:22:18.544 [main] Type: String
+2023-05-24 18:22:18.544 [main] Modifiers: private final
+2023-05-24 18:22:18.544 [main] 
+
+2023-05-24 18:22:18.544 [main] +++++++++++++++++++++++++++++++++
+2023-05-24 18:22:18.544 [main] Extracting information about constructors
+2023-05-24 18:22:18.544 [main] Constructor
+2023-05-24 18:22:18.544 [main] Modifiers: public
+2023-05-24 18:22:18.553 [main] Parameter Types: String, int, Subject
+2023-05-24 18:22:18.553 [main] 
+2023-05-24 18:22:18.553 [main] Constructor
+2023-05-24 18:22:18.553 [main] Modifiers: public
+2023-05-24 18:22:18.554 [main] Parameter Types: String, int, String
+2023-05-24 18:22:18.554 [main] 
+2023-05-24 18:22:18.554 [main] Constructor
+2023-05-24 18:22:18.554 [main] Modifiers: public
+2023-05-24 18:22:18.554 [main] Parameter Types: String, String, int, int, int, String, String, String, String, Schedule
+2023-05-24 18:22:18.554 [main] 
+2023-05-24 18:22:18.554 [main] Constructor
+2023-05-24 18:22:18.554 [main] Modifiers: public
+2023-05-24 18:22:18.554 [main] Parameter Types: String, String, int, int, int, String, String, String, String
+2023-05-24 18:22:18.554 [main] 
+2023-05-24 18:22:18.554 [main] Constructor
+2023-05-24 18:22:18.554 [main] Modifiers: public
+2023-05-24 18:22:18.554 [main] Parameter Types: Schedule
+2023-05-24 18:22:18.554 [main] 
+2023-05-24 18:22:18.554 [main] +++++++++++++++++++++++++++++++++
+2023-05-24 18:22:18.554 [main] Extracting information about constructors
+2023-05-24 18:22:18.554 [main] Method: toString
+2023-05-24 18:22:18.554 [main] Return Type: String
+2023-05-24 18:22:18.554 [main] Modifiers: public
+2023-05-24 18:22:18.555 [main] Parameter Types: 
+2023-05-24 18:22:18.555 [main] 
+2023-05-24 18:22:18.555 [main] Method: customToString
+2023-05-24 18:22:18.555 [main] Return Type: String
+2023-05-24 18:22:18.555 [main] Modifiers: public
+2023-05-24 18:22:18.555 [main] Parameter Types: 
+2023-05-24 18:22:18.555 [main] 
+2023-05-24 18:22:18.555 [main] Method: getSubject
+2023-05-24 18:22:18.555 [main] Return Type: Subject
+2023-05-24 18:22:18.555 [main] Modifiers: public
+2023-05-24 18:22:18.556 [main] Parameter Types: 
+2023-05-24 18:22:18.556 [main] 
+2023-05-24 18:22:18.556 [main] Method: getSchedule
+2023-05-24 18:22:18.556 [main] Return Type: Schedule
+2023-05-24 18:22:18.556 [main] Modifiers: public
+2023-05-24 18:22:18.556 [main] Parameter Types: 
+2023-05-24 18:22:18.556 [main] 
+2023-05-24 18:22:18.556 [main] Method: setStanding
+2023-05-24 18:22:18.556 [main] Return Type: void
+2023-05-24 18:22:18.556 [main] Modifiers: public
+2023-05-24 18:22:18.556 [main] Parameter Types: String
+2023-05-24 18:22:18.556 [main] 
+2023-05-24 18:22:18.556 [main] Method: getMajor
+2023-05-24 18:22:18.556 [main] Return Type: String
+2023-05-24 18:22:18.556 [main] Modifiers: public
+2023-05-24 18:22:18.556 [main] Parameter Types: 
+2023-05-24 18:22:18.556 [main] 
+2023-05-24 18:22:18.556 [main] Method: setMajor
+2023-05-24 18:22:18.557 [main] Return Type: void
+2023-05-24 18:22:18.557 [main] Modifiers: public
+2023-05-24 18:22:18.557 [main] Parameter Types: String
+2023-05-24 18:22:18.557 [main] 
+2023-05-24 18:22:18.557 [main] Method: printInfo
+2023-05-24 18:22:18.557 [main] Return Type: void
+2023-05-24 18:22:18.557 [main] Modifiers: public
+2023-05-24 18:22:18.557 [main] Parameter Types: 
+2023-05-24 18:22:18.557 [main] 
+2023-05-24 18:22:18.557 [main] Method: setSchedule
+2023-05-24 18:22:18.557 [main] Return Type: void
+2023-05-24 18:22:18.557 [main] Modifiers: public
+2023-05-24 18:22:18.557 [main] Parameter Types: Schedule
+2023-05-24 18:22:18.557 [main] 
+2023-05-24 18:22:18.557 [main] Method: getAcademicStanding
+2023-05-24 18:22:18.557 [main] Return Type: String
+2023-05-24 18:22:18.557 [main] Modifiers: public
+2023-05-24 18:22:18.557 [main] Parameter Types: 
+2023-05-24 18:22:18.558 [main] 
