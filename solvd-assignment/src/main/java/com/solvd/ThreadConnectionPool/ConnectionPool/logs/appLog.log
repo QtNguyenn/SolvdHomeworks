@@ -1,0 +1,51 @@
+2023-06-07 21:49:20.424 [main] Initializing connection pool.
+2023-06-07 21:49:20.426 [main] Step 3: Create Connection Pool.
+Use collection from java.util.concurrent package.
+Connection class may be mocked. The pool should be threadsafe and lazy initialized.
+2023-06-07 21:49:20.428 [Thread-1] Acquired connection: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@67923c12
+2023-06-07 21:49:20.428 [Thread-2] Acquired connection: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@68333fe4
+2023-06-07 21:49:20.428 [Thread-0] Acquired connection: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@6fe09bf8
+2023-06-07 21:49:20.428 [Thread-4] Acquired connection: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@61a139f0
+2023-06-07 21:49:20.428 [Thread-3] Acquired connection: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@7c55a2d8
+2023-06-07 21:49:20.431 [Thread-6] Released connection: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@67923c12
+2023-06-07 21:49:20.431 [Thread-9] Released connection: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@61a139f0
+2023-06-07 21:49:20.431 [Thread-5] Released connection: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@6fe09bf8
+2023-06-07 21:49:20.431 [Thread-8] Released connection: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@7c55a2d8
+2023-06-07 21:49:20.431 [Thread-7] Released connection: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@68333fe4
+2023-06-07 21:49:20.432 [main] =====================================
+2023-06-07 21:49:20.432 [main] Step 4: Initialize Connection Pool object of size 5.
+Load Connection Pool using single threads and Java Thread Pool (7 threads in total).
+5 threads should be able to get the connection.
+2 Threads should wait for the next available connection. The program should wait as well.
+2023-06-07 21:49:20.433 [Thread-10] Connection acquired: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@6fe09bf8
+2023-06-07 21:49:20.434 [Thread-13] Connection acquired: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@7c55a2d8
+2023-06-07 21:49:20.433 [Thread-12] Connection acquired: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@68333fe4
+2023-06-07 21:49:20.434 [Thread-11] Connection acquired: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@67923c12
+2023-06-07 21:49:20.434 [Thread-14] Connection acquired: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@61a139f0
+2023-06-07 21:49:25.442 [Thread-12] Connection released: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@68333fe4
+2023-06-07 21:49:25.442 [Thread-14] Connection released: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@61a139f0
+2023-06-07 21:49:25.442 [Thread-10] Connection released: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@6fe09bf8
+2023-06-07 21:49:25.442 [Thread-11] Connection released: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@67923c12
+2023-06-07 21:49:25.442 [Thread-13] Connection released: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@7c55a2d8
+2023-06-07 21:49:25.442 [pool-3-thread-2] Connection acquired: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@67923c12
+2023-06-07 21:49:25.442 [pool-3-thread-1] Connection acquired: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@68333fe4
+2023-06-07 21:49:26.445 [pool-3-thread-2] Connection released: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@67923c12
+2023-06-07 21:49:26.454 [pool-3-thread-1] Connection released: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@68333fe4
+2023-06-07 21:55:38.484 [main] =================================
+2023-06-07 21:55:38.486 [main] Implement previous point but with interfaces Future and CompletableStage.
+2023-06-07 21:55:38.487 [main] Initializing connection pool.
+2023-06-07 21:55:38.491 [pool-2-thread-2] Connection acquired:4: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@16c243b0
+2023-06-07 21:55:38.491 [pool-2-thread-1] Connection acquired:3: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@38670a55
+2023-06-07 21:55:38.491 [pool-2-thread-3] Connection acquired:5: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@49c69ed6
+2023-06-07 21:55:38.491 [pool-2-thread-6] Connection acquired:1: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@20ef5d32
+2023-06-07 21:55:38.491 [pool-2-thread-7] Connection acquired:2: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@2d7c4252
+2023-06-07 21:55:40.505 [pool-2-thread-3] Connection released 5: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@49c69ed6
+2023-06-07 21:55:40.505 [pool-2-thread-6] Connection released 1: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@20ef5d32
+2023-06-07 21:55:40.505 [pool-2-thread-2] Connection released 4: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@16c243b0
+2023-06-07 21:55:40.505 [pool-2-thread-7] Connection released 2: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@2d7c4252
+2023-06-07 21:55:40.505 [pool-2-thread-1] Connection released 3: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@38670a55
+2023-06-07 21:55:40.505 [pool-2-thread-4] Waiting Connection acquired 2: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@49c69ed6
+2023-06-07 21:55:40.505 [pool-2-thread-5] Waiting Connection acquired 1: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@2d7c4252
+2023-06-07 21:55:41.506 [pool-2-thread-4] Waiting Connection released 2: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@49c69ed6
+2023-06-07 21:55:41.522 [pool-2-thread-5] Waiting Connection released 1: com.solvd.ThreadConnectionPool.ConnectionPool.Connection@2d7c4252
+2023-06-07 21:55:42.516 [main] Testing completed.

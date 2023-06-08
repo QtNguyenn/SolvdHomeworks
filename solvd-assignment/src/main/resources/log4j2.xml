@@ -1,13 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
+  <Properties>
+    <Property name="projectfilename">src/main/java/com/solvd/project/logs</Property>
+    <Property name="connectionfilename">src/main/java/com/solvd/ThreadConnectionPool/ConnectionPool/logs</Property>
+    <Property name="threadfilename">src/main/java/com/solvd/ThreadConnectionPool/Thread/logs</Property>
+  </Properties>
   <Appenders>
-    <File name="File" fileName="src/main/resources/appLog.log">
+    <RollingFile name="projectFile" fileName="${projectfilename}/appLog.log" 
+                filePattern="${projectfilename}/appLog-%d{yyyy-MM-dd}.log">
       <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %msg%n" />
-    </File>
+      <Policies>
+      </Policies>
+    </RollingFile>
+    <RollingFile name="connectionFile" fileName="${connectionfilename}/appLog.log" 
+                filePattern="${connectionfilename}/appLog-%d{yyyy-MM-dd}.log">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %msg%n" />
+      <Policies>
+      </Policies>
+    </RollingFile>
+    <RollingFile name="threadFile" fileName="${threadfilename}/appLog.log" 
+                filePattern="${threadfilename}/appLog-%d{yyyy-MM-dd}.log">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %msg%n" />
+      <Policies>
+      </Policies>
+    </RollingFile>
+    
   </Appenders>
   <Loggers>
-    <Root level="ALL">
-      <AppenderRef ref="File" />
+    
+    <Logger name="project" level="info">
+      <AppenderRef ref="projectFile" />
+  
+    </Logger>
+    <Logger name="ConnectionPool" level="info">
+      <AppenderRef ref="connectionFile" />
+     
+    </Logger>
+    <Logger name="Thread" level="info">
+      <AppenderRef ref="threadFile" />
+ 
+    </Logger>
+    <Root level="trace">
+      <AppenderRef ref="projectFile" />
     </Root>
   </Loggers>
 </Configuration>

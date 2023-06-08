@@ -12,7 +12,7 @@ import org.apache.logging.log4j.Logger;
 
 public class CollegeManagement
 {
-    private static final Logger logger = LogManager.getLogger(CollegeManagement.class);
+    private static final Logger logger = LogManager.getLogger("project");
     public static ManageStudent<Student> manageStudentList = new ManageStudent<>();
     
     public static void manageStudent(Student newStudent,String save)

@@ -20,7 +20,7 @@ public class ManageStudent<T extends Person> extends CollegeManagement {
 
     private CustomLinkedList<T> students; // linked list to store students
     private final String FILENAME = "src/main/java/com/solvd/project/Data/studentData.csv"; // filename to read and write student data
-    private final Logger logger = LogManager.getLogger(ManageStudent.class); // logger instance
+    private final Logger logger = LogManager.getLogger("project"); // logger instance
 
     public ManageStudent() 
     {

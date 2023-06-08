@@ -32,7 +32,7 @@ public class ManageProfessor extends CollegeManagement{
     private static final String FILENAME = "src/main/java/com/solvd/project/Data/professorData.csv"; // file name to read and write professor data
 
     //Define a logger instance
-    private static final Logger logger = LogManager.getLogger(ManageProfessor.class);
+    private static final Logger logger = LogManager.getLogger("project");
     public static void add(Professor newProfessor)
     {
         addProfessor(newProfessor);

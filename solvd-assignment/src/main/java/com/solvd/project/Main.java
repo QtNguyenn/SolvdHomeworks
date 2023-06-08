@@ -21,7 +21,7 @@ import org.apache.logging.log4j.Logger;
 public class Main {
 
     //Define a logger instance
-    private static final Logger logger = LogManager.getLogger(Main.class);  
+    private static final Logger logger = LogManager.getLogger("project");  
       
     public static void main(String[] args) throws Exception
     {  
