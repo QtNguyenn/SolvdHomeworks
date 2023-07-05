@@ -1,0 +1,214 @@
+2023-07-04 21:04:53.638 [main] New account created: user1
+2023-07-04 21:04:53.642 [main] New account created: user2
+2023-07-04 21:04:53.645 [main] New account created: user3
+2023-07-04 21:04:53.647 [main] New account created: user4
+2023-07-04 21:04:53.650 [main] New account created: user5
+2023-07-04 21:04:53.652 [main] New account created: user6
+2023-07-04 21:04:53.655 [main] New account created: user7
+2023-07-04 21:04:53.658 [main] New account created: user8
+2023-07-04 21:04:53.660 [main] New account created: user9
+2023-07-04 21:04:53.663 [main] New account created: user10
+2023-07-04 21:04:53.665 [main] New account created: user11
+2023-07-04 21:04:53.668 [main] New account created: user12
+2023-07-04 21:04:53.670 [main] New account created: user13
+2023-07-04 21:04:53.671 [main] New account created: user14
+2023-07-04 21:04:53.673 [main] New account created: user15
+2023-07-04 21:04:53.674 [main] Account with ID 15: 
+Account ID: 15
+Username: user15
+Password: password15
+2023-07-04 21:04:53.674 [main] ==========================================
+2023-07-04 21:04:53.674 [main] Check if username already taken.
+2023-07-04 21:04:53.675 [main] Account username already taken.
+2023-07-04 21:04:53.675 [main] Update Failed.
+2023-07-04 21:04:53.675 [main] Check if username and password updated.
+2023-07-04 21:04:53.679 [main] Update Success
+2023-07-04 21:04:53.679 [main] Account Info: 
+Account ID: 15
+Username: userUpdate
+Password: passwordUpdate
+2023-07-04 21:04:53.680 [main] All accounts:
+2023-07-04 21:04:53.680 [main] Account ID: 1
+Username: user1
+Password: password1
+2023-07-04 21:04:53.680 [main] Account ID: 2
+Username: user2
+Password: password2
+2023-07-04 21:04:53.680 [main] Account ID: 3
+Username: user3
+Password: password3
+2023-07-04 21:04:53.680 [main] Account ID: 4
+Username: user4
+Password: password4
+2023-07-04 21:04:53.680 [main] Account ID: 5
+Username: user5
+Password: password5
+2023-07-04 21:04:53.680 [main] Account ID: 6
+Username: user6
+Password: password6
+2023-07-04 21:04:53.680 [main] Account ID: 7
+Username: user7
+Password: password7
+2023-07-04 21:04:53.680 [main] Account ID: 8
+Username: user8
+Password: password8
+2023-07-04 21:04:53.680 [main] Account ID: 9
+Username: user9
+Password: password9
+2023-07-04 21:04:53.680 [main] Account ID: 10
+Username: user10
+Password: password10
+2023-07-04 21:04:53.680 [main] Account ID: 11
+Username: user11
+Password: password11
+2023-07-04 21:04:53.680 [main] Account ID: 12
+Username: user12
+Password: password12
+2023-07-04 21:04:53.680 [main] Account ID: 13
+Username: user13
+Password: password13
+2023-07-04 21:04:53.680 [main] Account ID: 14
+Username: user14
+Password: password14
+2023-07-04 21:04:53.680 [main] Account ID: 15
+Username: userUpdate
+Password: passwordUpdate
+2023-07-04 21:04:53.680 [main] ============================================
+2023-07-04 21:04:53.681 [main] ID Doesn't Exist.
+2023-07-04 21:04:53.681 [main] ============================================
+2023-07-04 21:04:53.682 [main] All accounts:
+2023-07-04 21:04:53.682 [main] Account ID: 1
+Username: user1
+Password: password1
+2023-07-04 21:04:53.682 [main] Account ID: 2
+Username: user2
+Password: password2
+2023-07-04 21:04:53.682 [main] Account ID: 3
+Username: user3
+Password: password3
+2023-07-04 21:04:53.682 [main] Account ID: 4
+Username: user4
+Password: password4
+2023-07-04 21:04:53.682 [main] Account ID: 5
+Username: user5
+Password: password5
+2023-07-04 21:04:53.682 [main] Account ID: 6
+Username: user6
+Password: password6
+2023-07-04 21:04:53.682 [main] Account ID: 7
+Username: user7
+Password: password7
+2023-07-04 21:04:53.682 [main] Account ID: 8
+Username: user8
+Password: password8
+2023-07-04 21:04:53.682 [main] Account ID: 9
+Username: user9
+Password: password9
+2023-07-04 21:04:53.682 [main] Account ID: 10
+Username: user10
+Password: password10
+2023-07-04 21:04:53.682 [main] Account ID: 11
+Username: user11
+Password: password11
+2023-07-04 21:04:53.682 [main] Account ID: 12
+Username: user12
+Password: password12
+2023-07-04 21:04:53.682 [main] Account ID: 13
+Username: user13
+Password: password13
+2023-07-04 21:04:53.682 [main] Account ID: 14
+Username: user14
+Password: password14
+2023-07-04 21:04:53.682 [main] Account ID: 15
+Username: userUpdate
+Password: passwordUpdate
+2023-07-04 21:04:53.706 [main] New driver created: Name: 1
+2023-07-04 21:04:53.709 [main] New driver created: Name: 2
+2023-07-04 21:04:53.712 [main] New driver created: Name: 3
+2023-07-04 21:04:53.715 [main] New driver created: Name: 4
+2023-07-04 21:04:53.718 [main] New driver created: Name: 5
+2023-07-04 21:04:53.722 [main] New driver created: Name: 6
+2023-07-04 21:04:53.726 [main] New driver created: Name: 7
+2023-07-04 21:04:53.729 [main] New driver created: Name: 8
+2023-07-04 21:04:53.732 [main] New driver created: Name: 9
+2023-07-04 21:04:53.735 [main] New driver created: Name: 10
+2023-07-04 21:04:53.737 [main] New driver created: Name: 11
+2023-07-04 21:04:53.739 [main] New driver created: Name: 12
+2023-07-04 21:04:53.742 [main] New driver created: Name: 13
+2023-07-04 21:04:53.744 [main] New driver created: Name: 14
+2023-07-04 21:04:53.747 [main] New driver created: Name: 15
+2023-07-04 21:04:53.766 [main] New driver created: Name: 1
+2023-07-04 21:04:53.770 [main] New driver created: Name: 2
+2023-07-04 21:04:53.772 [main] New driver created: Name: 3
+2023-07-04 21:04:53.775 [main] New driver created: Name: 4
+2023-07-04 21:04:53.777 [main] New driver created: Name: 5
+2023-07-04 21:04:53.780 [main] New driver created: Name: 6
+2023-07-04 21:04:53.783 [main] New driver created: Name: 7
+2023-07-04 21:04:53.787 [main] New driver created: Name: 8
+2023-07-04 21:04:53.790 [main] New driver created: Name: 9
+2023-07-04 21:04:53.794 [main] New driver created: Name: 10
+2023-07-04 21:04:53.797 [main] New driver created: Name: 11
+2023-07-04 21:04:53.800 [main] New driver created: Name: 12
+2023-07-04 21:04:53.803 [main] New driver created: Name: 13
+2023-07-04 21:04:53.805 [main] New driver created: Name: 14
+2023-07-04 21:04:53.807 [main] New driver created: Name: 15
+2023-07-04 21:04:53.824 [main] New car added for driver: 1
+2023-07-04 21:04:53.827 [main] New car added for driver: 2
+2023-07-04 21:04:53.829 [main] New car added for driver: 3
+2023-07-04 21:04:53.831 [main] New car added for driver: 4
+2023-07-04 21:04:53.834 [main] New car added for driver: 5
+2023-07-04 21:04:53.836 [main] New car added for driver: 6
+2023-07-04 21:04:53.839 [main] New car added for driver: 7
+2023-07-04 21:04:53.841 [main] New car added for driver: 8
+2023-07-04 21:04:53.844 [main] New car added for driver: 9
+2023-07-04 21:04:53.845 [main] New car added for driver: 10
+2023-07-04 21:04:53.847 [main] New car added for driver: 11
+2023-07-04 21:04:53.850 [main] New car added for driver: 12
+2023-07-04 21:04:53.852 [main] New car added for driver: 13
+2023-07-04 21:04:53.855 [main] New car added for driver: 14
+2023-07-04 21:04:53.857 [main] New car added for driver: 15
+2023-07-04 21:04:53.872 [main] New rating added for driver: 1
+2023-07-04 21:04:53.874 [main] New rating added for driver: 2
+2023-07-04 21:04:53.877 [main] New rating added for driver: 3
+2023-07-04 21:04:53.881 [main] New rating added for driver: 4
+2023-07-04 21:04:53.884 [main] New rating added for driver: 5
+2023-07-04 21:04:53.886 [main] New rating added for driver: 1
+2023-07-04 21:04:53.889 [main] New rating added for driver: 2
+2023-07-04 21:04:53.891 [main] New rating added for driver: 3
+2023-07-04 21:04:53.894 [main] New rating added for driver: 4
+2023-07-04 21:04:53.896 [main] New rating added for driver: 5
+2023-07-04 21:04:53.920 [main] Created new locationStreet: 1 with city Name: 1 and country Name 1
+2023-07-04 21:04:53.925 [main] Created new locationStreet: 2 with city Name: 2 and country Name 2
+2023-07-04 21:04:53.932 [main] Created new locationStreet: 3 with city Name: 3 and country Name 3
+2023-07-04 21:04:53.938 [main] Created new locationStreet: 4 with city Name: 4 and country Name 4
+2023-07-04 21:04:53.944 [main] Created new locationStreet: 5 with city Name: 5 and country Name 5
+2023-07-04 21:04:53.950 [main] Created new locationStreet: 6 with city Name: 6 and country Name 6
+2023-07-04 21:04:53.956 [main] Created new locationStreet: 7 with city Name: 7 and country Name 7
+2023-07-04 21:04:53.960 [main] Created new locationStreet: 8 with city Name: 8 and country Name 8
+2023-07-04 21:04:53.965 [main] Created new locationStreet: 9 with city Name: 9 and country Name 9
+2023-07-04 21:04:53.971 [main] Created new locationStreet: 10 with city Name: 10 and country Name 10
+2023-07-04 21:04:53.977 [main] Created new locationStreet: 11 with city Name: 11 and country Name 11
+2023-07-04 21:04:53.981 [main] Created new locationStreet: 12 with city Name: 12 and country Name 12
+2023-07-04 21:04:53.985 [main] Created new locationStreet: 13 with city Name: 13 and country Name 13
+2023-07-04 21:04:53.991 [main] Created new locationStreet: 14 with city Name: 14 and country Name 14
+2023-07-04 21:04:53.996 [main] Created new locationStreet: 15 with city Name: 15 and country Name 15
+2023-07-04 21:04:54.008 [main] New service created.
+2023-07-04 21:04:54.009 [main] New service created.
+2023-07-04 21:04:54.011 [main] New service created.
+2023-07-04 21:04:54.013 [main] New service created.
+2023-07-04 21:04:54.015 [main] New service created.
+2023-07-04 21:04:54.030 [main] Payment created.
+2023-07-04 21:04:54.032 [main] Payment created.
+2023-07-04 21:04:54.035 [main] Payment created.
+2023-07-04 21:04:54.036 [main] Payment created.
+2023-07-04 21:04:54.038 [main] Payment created.
+2023-07-04 21:04:54.049 [main] Promotion created
+2023-07-04 21:04:54.052 [main] Promotion created
+2023-07-04 21:04:54.054 [main] Promotion created
+2023-07-04 21:04:54.054 [main] Promotion created
+2023-07-04 21:04:54.057 [main] Promotion created
+2023-07-04 21:04:54.068 [main] Payment has promotion created
+2023-07-04 21:04:54.071 [main] Payment has promotion created
+2023-07-04 21:04:54.074 [main] Payment has promotion created
+2023-07-04 21:04:54.077 [main] Payment has promotion created
+2023-07-04 21:04:54.079 [main] Payment has promotion created
